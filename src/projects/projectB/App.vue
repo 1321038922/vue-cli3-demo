@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-   我是项目B
+   <router-view></router-view>
   </div>
 </template>
 
-<style lang="less">
+<style lang="scss">
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

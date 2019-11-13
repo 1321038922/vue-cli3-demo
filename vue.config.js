@@ -21,15 +21,12 @@ module.exports = {
       errors: false
     }
   },
-  // chainWebpack: (config) => {
-  //   config.resolve.alias
-  //     .set('@', resolve(projectName.name))
-  // }
   configureWebpack: {
     // provide the app's title in webpack's name field, so that
     // it can be accessed in index.html to inject the correct title.
     name: projectName.name,
     resolve: {
+      // 根据当前运行项目生成自定义查找路径
       alias: {
         '@': resolve('src/projects/' + projectName.name)
       }
