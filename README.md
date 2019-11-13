@@ -12,16 +12,7 @@ npm run d + projectName
 
 ### 1.1.2. Compiles and minifies for production
 ```
-npm run build
+npm run b + projectName
 ```
 
-### 1.1.3. Run your tests
-```
-npm run test
-```
-
-### 1.1.4. Lints and fixes files
-```
-npm run lint
-```
 
